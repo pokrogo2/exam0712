@@ -16,3 +16,7 @@
 ```
 3.beanConfiguration에 어노테이션 @Configuration 추가
 
+4.board.xml에 mapper namespace 수정
+```
+<mapper namespace="com.koreait.test1.dao.BoardDAO">
+```
