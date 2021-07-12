@@ -29,3 +29,5 @@
 	</select>
 ```
 6.view.jsp 에 <input type="hidden" name="bIdx" value="${boardDTO.bIdx }">추가
+
+7.BoardController에 insert @PostMapping으로 변경
