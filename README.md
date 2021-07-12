@@ -20,3 +20,11 @@
 ```
 <mapper namespace="com.koreait.test1.dao.BoardDAO">
 ```
+5.board.xml에 selectBoardCount select문 추가
+```
+<select id="selectBoardCount" resultType="int">
+		SELECT COUNT(BIDX)
+		FROM BOARD
+		
+	</select>
+```
